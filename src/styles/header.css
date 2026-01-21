@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -6,6 +7,7 @@
   height: 7vh;
   width: 100%;
   border-bottom: 1px solid whitesmoke;
+  font-family: "DM Sans", sans-serif;
 }
 
 .logo img {
