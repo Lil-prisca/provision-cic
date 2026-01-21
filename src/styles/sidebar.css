@@ -1,0 +1,15 @@
+.side {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  height: 9vh;
+  width: 100%;
+  border-bottom: 2px solid rgb(228, 225, 225);
+}
+.logo img {
+  width: 60px;
+}
+.ham img {
+  width: 25px;
+}

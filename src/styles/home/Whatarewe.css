@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.whatarewe {
+  width: 100%;
+  margin-top: 30px;
+  padding-right: 10px;
+}
+.whatarewe p {
+  text-align: center;
+}
+.whatarewe h2 {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600px;
+  margin-bottom: 5px;
+}
+.support-service {
+  display: flex;
+  width: 100%;
+  gap: 2px;
+  padding: 20px 40px;
+  /* background-color: black; */
+}
+.oursupport {
+  /* background-color: black; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.oursupport p {
+  text-align: left;
+  font-size: 8px;
+}
+.oursupport button {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.serviceImg {
+  width: 50%;
+  margin: 0 auto;
+  /* background-color: black; */
+}
+.serviceImg img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 170px;
+}
+
+/* screen */
+@media screen and (min-width: 480px) {
+  .support-service p {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .support-service p {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .whatarewe h2 {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .support-service p {
+    text-align: left;
+    font-size: 20px;
+  }
+  .serviceImg img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    font-family: md-sans;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .support-service p {
+    font-size: 22px;
+  }
+  .oursupport {
+    /* margin: auto; */
+  }
+  .serviceImg {
+  }
+  .serviceImg img {
+    height: 300px;
+    width: 300px;
+  }
+}

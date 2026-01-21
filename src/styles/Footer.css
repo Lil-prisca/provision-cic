@@ -1,0 +1,127 @@
+@import url("https:/fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.footer {
+  margin-top: 10px;
+  height: 40vh;
+  display: flex;
+  padding: 10px 5px;
+  background-color: #ffebde;
+  font-family: "DM Sans", sans-serif;
+}
+.companyinfo {
+  width: 50%;
+  padding-top: 10px;
+}
+.companyinfo h2 {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.companyinfo p {
+  font-size: 10px;
+  text-align: left;
+}
+.companyinfo img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+hr {
+  height: 90%;
+  width: 1px;
+  border: 1px solid #e6c1a9;
+  margin: auto;
+}
+.joinnewsletter {
+  width: 50%;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.joinnewsletter h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 100px;
+  font-style: none;
+}
+.subscribe {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.subscribe input,
+button {
+  outline: none;
+  border-radius: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+.subscribe input {
+  border: 1px solid #e6c1a9;
+  width: 100px;
+}
+.subscribe button {
+  width: 70px;
+  padding: 5px 10px;
+}
+.subscribe input::placeholder {
+  padding-left: 20px;
+  color: #dd8b54;
+  font-size: 8px;
+}
+.socials {
+  gap: 5px;
+  margin-top: 40px;
+}
+.socials img {
+  background-color: #934713;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* other screen */
+@media screen and (min-width: 708px) {
+  .footer {
+    height: 40vh;
+  }
+  .companyinfo p {
+    font-size: 15px;
+  }
+  .subscribe input {
+    width: 150px;
+  }
+  .subscribe button {
+    width: 100px;
+    padding: 5px 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    margin: 0 40px;
+    border-radius: 15px;
+  }
+  .companyinfo p {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 858px) {
+  .companyinfo p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1058px) {
+  .companyinfo p {
+    font-size: 18px;
+  }
+  .footer {
+    height: 40vh;
+  }
+}
+@media screen and (min-width: 1558px) {
+  .companyinfo p {
+    font-size: 20px;
+  }
+  .footer {
+    height: 50vh;
+  }
+}
