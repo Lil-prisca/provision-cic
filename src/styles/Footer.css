@@ -1,127 +1,145 @@
-@import url("https:/fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 .footer {
   margin-top: 10px;
-  height: 40vh;
+  max-height: 50vh;
   display: flex;
-  padding: 10px 5px;
+  padding: 16px;
   background-color: #ffebde;
   font-family: "DM Sans", sans-serif;
+  gap: 12px;
 }
-.companyinfo {
-  width: 50%;
-  padding-top: 10px;
-}
-.companyinfo h2 {
-  margin-left: 15px;
-  margin-bottom: 5px;
-}
-.companyinfo p {
-  font-size: 10px;
-  text-align: left;
-}
-.companyinfo img {
-  margin-left: 10px;
-  margin-top: 10px;
-}
-hr {
-  height: 90%;
-  width: 1px;
-  border: 1px solid #e6c1a9;
-  margin: auto;
-}
+
+.companyinfo,
 .joinnewsletter {
   width: 50%;
-  padding-top: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
+
+/* COMPANY INFO */
+.companyinfo h2 {
+  margin: 0 0 6px 10px;
+}
+
+.companyinfo p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0 10px;
+}
+
+.companyinfo img {
+  margin: 10px;
+  max-width: 120px;
+}
+
+/* DIVIDER */
+.footer hr {
+  height: auto;
+  width: 1px;
+  background-color: #e6c1a9;
+  border: none;
+}
+
+/* NEWSLETTER */
 .joinnewsletter h2 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 20px;
-  font-weight: 100px;
-  font-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
+
 .subscribe {
-  margin-top: 10px;
   display: flex;
-  gap: 10px;
+  gap: 8px;
+  margin-top: 10px;
 }
-.subscribe input,
-button {
+
+/* IMPORTANT: remove global button selector */
+.subscribe input {
   outline: none;
   border-radius: 20px;
   font-family: "DM Sans", sans-serif;
-}
-.subscribe input {
   border: 1px solid #e6c1a9;
-  width: 100px;
+  width: 120px;
+  padding: 6px 10px;
+  font-size: 12px;
 }
+
 .subscribe button {
-  width: 70px;
-  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #934713;
+  color: #fff;
+  padding: 6px 14px;
+  font-size: 12px;
+  cursor: pointer;
 }
+
 .subscribe input::placeholder {
-  padding-left: 20px;
   color: #dd8b54;
-  font-size: 8px;
+  font-size: 10px;
 }
+
+/* SOCIAL ICONS */
 .socials {
-  gap: 5px;
-  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
 }
+
 .socials img {
   background-color: #934713;
-  margin: 10px;
-  padding: 5px;
-  border-radius: 10px;
+  padding: 6px;
+  border-radius: 8px;
+  width: 28px;
+  height: 28px;
 }
 
-/* other screen */
-@media screen and (min-width: 708px) {
+/* =====================
+   TABLET (≥ 768px)
+===================== */
+
+@media (min-width: 768px) {
   .footer {
-    height: 40vh;
-  }
-  .companyinfo p {
-    font-size: 15px;
-  }
-  .subscribe input {
-    width: 150px;
-  }
-  .subscribe button {
-    width: 100px;
-    padding: 5px 10px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer {
-    margin: 0 40px;
+    margin: 20px 40px;
     border-radius: 15px;
   }
+
   .companyinfo p {
     font-size: 14px;
-    text-align: left;
+  }
+
+  .subscribe input {
+    width: 160px;
+  }
+
+  .subscribe button {
+    font-size: 13px;
   }
 }
 
-@media screen and (min-width: 858px) {
+/* =====================
+   DESKTOP (≥ 1024px)
+===================== */
+
+@media (min-width: 1024px) {
   .companyinfo p {
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  .footer {
+    min-height: 45vh;
   }
 }
-@media screen and (min-width: 1058px) {
+
+/* =====================
+   LARGE SCREENS
+===================== */
+
+@media (min-width: 1440px) {
   .companyinfo p {
     font-size: 18px;
   }
+
   .footer {
-    height: 40vh;
-  }
-}
-@media screen and (min-width: 1558px) {
-  .companyinfo p {
-    font-size: 20px;
-  }
-  .footer {
-    height: 50vh;
+    min-height: 50vh;
   }
 }

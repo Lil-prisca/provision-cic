@@ -24,7 +24,7 @@ const Whereweoperate = () => {
           </ul>
           <div className="operationbuttons">
             <a href="">
-              <button>Get Support</button>
+              <button className="getSupportBtn">Get Support</button>
             </a>
             <a href="">
               <button className="referbtn">Refer Someones</button>
@@ -66,7 +66,7 @@ const Whereweoperate = () => {
 
           <div className="operationbuttons">
             <a href="">
-              <button>Get Support</button>
+              <button className="getSupportBtn">Get Support</button>
             </a>
 
             <a href="">

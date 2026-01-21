@@ -6,6 +6,8 @@ import Whatarewe from "../../pages/Home/Whatarewe";
 import Whatwedo from "../../pages/Home/Whatwedo";
 import Whereweoperate from "../../pages/Home/Whereweoperate";
 import Footer from "../../components/Footer";
+import WhyChooseUs from "../../pages/Home/WhyChooseUs";
+import LatestEvents from "../../pages/Home/LatestEvent";
 const Home = () => {
   return (
     <div>
@@ -15,6 +17,8 @@ const Home = () => {
       <Whatarewe />
       <Whatwedo />
       <Whereweoperate />
+      <WhyChooseUs />
+      <LatestEvents />
       <Footer />
     </div>
   );

@@ -1,96 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 .whatarewe {
   width: 100%;
   margin-top: 30px;
-  padding-right: 10px;
+  padding: 0 10px;
+  font-family: "DM Sans", sans-serif;
 }
-.whatarewe p {
-  text-align: center;
-}
+
 .whatarewe h2 {
   text-align: center;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 600px;
-  margin-bottom: 5px;
+  font-weight: 600;
+  margin-bottom: 6px;
 }
+
+.whatarewe p {
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .support-service {
   display: flex;
-  width: 100%;
-  gap: 2px;
-  padding: 20px 40px;
-  /* background-color: black; */
+  gap: 12px;
+  padding: 20px;
 }
+
 .oursupport {
-  /* background-color: black; */
-  width: 60%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .oursupport p {
   text-align: left;
-  font-size: 8px;
-}
-.oursupport button {
-  margin-left: 10px;
-  margin-top: 20px;
-}
-.serviceImg {
-  width: 50%;
-  margin: 0 auto;
-  /* background-color: black; */
-}
-.serviceImg img {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  height: 250px;
-  width: 170px;
+  font-size: 10px;
+  line-height: 1.6;
 }
 
-/* screen */
-@media screen and (min-width: 480px) {
-  .support-service p {
-    font-size: 10px;
-  }
+.oursupport button {
+  margin-top: 16px;
+  background-color: #934713;
+  align-self: flex-start;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
-@media screen and (min-width: 600px) {
-  .support-service p {
+
+.serviceImg {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.serviceImg img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+@media (min-width: 480px) {
+  .oursupport p {
     font-size: 12px;
   }
 }
-@media screen and (min-width: 768px) {
+
+@media (min-width: 768px) {
   .whatarewe h2 {
-    text-align: center;
-    font-family: "DM Sans", sans-serif;
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 36px;
+    margin-bottom: 12px;
   }
-  .support-service p {
-    text-align: left;
-    font-size: 20px;
+
+  .oursupport p {
+    font-size: 16px;
   }
+
   .serviceImg img {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    height: 90%;
-    width: 100%;
-    font-family: md-sans;
+    max-width: 260px;
   }
 }
 
-@media screen and (min-width: 1150px) {
-  .support-service p {
-    font-size: 22px;
+@media (min-width: 1150px) {
+  .support-service {
+    padding: 40px 80px;
   }
-  .oursupport {
-    /* margin: auto; */
+
+  .oursupport p {
+    font-size: 18px;
   }
-  .serviceImg {
-  }
+
   .serviceImg img {
-    height: 300px;
-    width: 300px;
+    max-width: 300px;
   }
 }

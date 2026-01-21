@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/Button.css";
-const Button = () => {
+const Button = (props) => {
   return (
     <div className="btncomponent" style={{ position: "relative" }}>
-      <div className="firstlayer">Learn more</div>
+      <div className="firstlayer">{props.text}</div>
       <div className="secondlayer"></div>{" "}
     </div>
   );

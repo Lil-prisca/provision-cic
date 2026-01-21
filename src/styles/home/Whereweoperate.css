@@ -1,237 +1,177 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 .whereweoperate {
+  width: 100%;
   background-image: url("../../assets/Vector (1).png");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "DM Sans", sans-serif;
-  width: 100%;
-  padding: 100px 20px;
+  padding: 80px 16px;
 }
+
 .whereweoperate h2 {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
-  color: white;
+  color: #fff;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
+
 .operationp {
   font-size: 13px;
+  color: #fff;
   text-align: center;
-  color: white;
+  margin-bottom: 16px;
 }
 
 .operationArea {
   display: flex;
-  justify-content: center;
-  text-align: left;
-  gap: 20px;
-  margin-top: 10px;
+  gap: 14px;
+  padding: 12px;
+  margin-bottom: 24px;
   background-color: #ffebde;
-  padding: 10px;
-}
-.areainfo {
-  width: 60%;
-  padding-top: 10px;
-}
-.areainfo p {
-  text-align: left;
-  font-size: 8px;
-}
-.areainfo ul {
-  padding-left: 30px;
-  font-size: 8px;
-}
-.operationbuttons {
-  margin-top: 10px;
-  display: flex;
-  gap: 5px;
-  padding-left: 10px;
-}
-.operationbuttons button {
-  border-radius: 6px;
-  border: 2px solid #934713;
-  padding: 8px 5px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 8px;
-}
-.operationbuttons .referbtn {
-  border-radius: 6px;
-  background-color: transparent;
-  border: 1px solid #934713;
-  color: #934713;
-}
-.areaimg {
-  width: 40%;
-  height: 150px;
-  align-items: center;
-  margin: auto;
-  margin-top: 5px;
-  background-color: black;
-}
-.areaimg img {
-  /* width: 150px; */
-  /* height: 150px; */
-  width: 100%;
-  height: 100%;
-}
-.referalText {
-  color: white;
-  font-size: 10px;
-  text-align: center;
-  margin-top: 5px;
-}
-.referalTextp {
-  color: white;
-  font-size: 10px;
-  text-align: center;
 }
 
-/* screen */
-@media screen and (min-width: 500px) {
-  .whereweoperate {
-    padding: 120px 20px;
-  }
+.areainfo {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
-@media screen and (min-width: 600px) {
-  .whereweoperate {
-    padding: 150px 20px;
-  }
+
+.areainfo p {
+  font-size: 10px;
+  line-height: 1.6;
 }
-@media screen and (min-width: 768px) {
+
+.areainfo ul {
+  font-size: 10px;
+  padding-left: 18px;
+  line-height: 1.5;
+}
+
+.operationbuttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.getSupportBtn,
+.referbtn {
+  font-size: 10px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.getSupportBtn {
+  background-color: #934713;
+  color: #fff;
+  border: none;
+}
+
+.referbtn {
+  background-color: transparent;
+  color: #934713;
+  border: 1px solid #934713;
+}
+
+.areaimg {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.areaimg img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.referalText {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.referalTextp {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
   .whereweoperate {
-    padding: 170px 15px;
+    padding: 140px 40px;
   }
-  .operationp {
-    margin-bottom: 40px;
-  }
+
   .whereweoperate h2 {
     font-size: 36px;
   }
-  .perationp {
-    font-size: 12px;
-  }
-  .operationArea p {
-    font-size: 12px;
-  }
-  .operationArea ul {
-    font-size: 10px;
-    margin-left: 20px;
-  }
-  .operationArea {
-    margin: 0 40px;
-  }
-  .areaimg img {
-    width: 700;
-    height: 180px;
-  }
-  .referalText {
-    margin-top: 20px;
-    font-size: 15px;
-  }
-  .referalTextp {
-    margin-top: 10px;
-    font-size: 15px;
-    margin-bottom: 20px;
-  }
-  .operationbuttons {
-    margin-left: 20px;
-  }
-  .operationbuttons button {
-    padding: 7px 7px;
-    font-size: 12px;
-    border: 1px solid #934713;
-    width: fit-content;
-  }
-}
 
-@media screen and (min-width: 900px) {
-  .whereweoperate {
-    padding: 230px 15px;
-  }
-  .whereweoperate h2 {
-    font-size: 46px;
-  }
   .operationp {
-    font-size: 32px;
+    font-size: 16px;
+    margin-bottom: 40px;
   }
-  .referalText {
-    font-size: 30px;
-  }
-  .referalTextp {
-    font-size: 25px;
-    margin-bottom: 20px;
-  }
+
   .areainfo p {
-    font-size: 20px;
+    font-size: 14px;
   }
-  .operationArea ul {
-    font-size: 17px;
-    margin-left: 20px;
+
+  .areainfo ul {
+    font-size: 13px;
   }
+
   .areaimg img {
-    height: 270px;
-    margin: auto;
+    max-height: 200px;
   }
-  .operationbuttons button {
-    font-size: 15px;
+
+  .getSupportBtn,
+  .referbtn {
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+
+  .referalText,
+  .referalTextp {
+    font-size: 16px;
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media (min-width: 1150px) {
   .whereweoperate {
-    padding: 300px 15px;
+    padding: 200px 80px;
   }
-  .operationArea p {
-    font-size: 27px;
-  }
-  .operationArea ul {
-    font-size: 25px;
-    margin-left: 22px;
-  }
-  .areaimg img {
-    height: auto;
-  }
-  .operationbuttons button {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 1500px) {
-  .whereweoperate {
-    padding: 400px 15px;
-  }
-  .operationArea p {
-    font-size: 35px;
-  }
-  .operationArea ul {
-    font-size: 35px;
-    margin-left: 22px;
-  }
-  .areaimg img {
-    height: auto;
-  }
-  .operationbuttons button {
-    font-size: 30px;
-  }
-}
 
-@media screen and (min-width: 1860px) {
-  .whereweoperate {
-    padding: 500px 15px;
+  .operationArea {
+    padding: 24px;
+    gap: 24px;
   }
-  .operationArea p {
-    font-size: 45px;
+
+  .areainfo p {
+    font-size: 18px;
   }
-  .operationArea ul {
-    font-size: 40px;
-    margin-left: 22px;
+
+  .areainfo ul {
+    font-size: 16px;
   }
+
   .areaimg img {
-    height: auto;
+    max-height: 280px;
   }
-  .operationbuttons button {
-    font-size: 37px;
+
+  .getSupportBtn,
+  .referbtn {
+    font-size: 14px;
+  }
+
+  .referalText {
+    font-size: 24px;
+  }
+
+  .referalTextp {
+    font-size: 20px;
   }
 }

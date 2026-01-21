@@ -22,7 +22,7 @@ const Whatwedo = () => {
           </p>
           <div className="btncomp">
             {" "}
-            <Button />{" "}
+            <Button text="Learn More" />{" "}
           </div>
         </div>
 
@@ -40,7 +40,7 @@ const Whatwedo = () => {
           </p>
           <div className="btncomp">
             {" "}
-            <Button />{" "}
+            <Button text="Learn More" />{" "}
           </div>
         </div>
 
@@ -59,7 +59,7 @@ const Whatwedo = () => {
 
           <div className="btncomp">
             {" "}
-            <Button />{" "}
+            <Button text="Learn More" />{" "}
           </div>
         </div>
       </div>
