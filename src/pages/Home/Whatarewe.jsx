@@ -1,6 +1,6 @@
 import React from "react";
 import user002 from "../../assets/Mask group.png";
-import "../../styles/home/whatarewe.css";
+import "../../styles/home/Whatarewe.css";
 
 const Whatarewe = () => {
   return (

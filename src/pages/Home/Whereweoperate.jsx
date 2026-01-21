@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/home/whereweoperate.css";
+import "../../styles/home/Whereweoperate.css";
 import areaImg1 from "../../assets/coventry-f6acc2bd 2.png";
 import areaImg2 from "../../assets/image 1.png";
 const Whereweoperate = () => {
