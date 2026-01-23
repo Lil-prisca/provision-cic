@@ -61,10 +61,10 @@ nav{
 
 @media screen and (min-width: 768px) {
   nav{
-    height:15vh;
+    height:12vh;
   }
   .navbar {
-     height:15vh;
+     height:12vh;
   }
 .items{
   display:flex;
@@ -81,6 +81,12 @@ font-size:14px;
 }
 /* desktop */
 @media (min-width:1000px) {
+    nav{
+    height:15vh;
+  }
+  .navbar {
+     height:15vh;
+  }
   .items div a {
   font-size:20px;
 }
