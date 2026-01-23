@@ -1,10 +1,10 @@
 import React from "react";
 import "../../styles/home/welcome.css";
 
-import img1 from "../../assets/coventry-f6acc2bd 1.png";
-import img2 from "../../assets/home-hero-big-fa694ebf 1.png";
-import img3 from "../../assets/download 2.png";
-import img4 from "../../assets/download 1.png";
+import img1 from "../../assets/coventry-f6acc2bd 1 (1).png";
+import img2 from "../../assets/home-hero-big-fa694ebf 1 (1).png";
+import img3 from "../../assets/download 2 (1).png";
+import img4 from "../../assets/download 1 (1).png";
 
 import { motion } from "framer-motion";
 
@@ -46,7 +46,7 @@ const WelcometoProvision = () => {
       </p>
 
       <a href="">
-        <button>Get in Touch</button>
+        <button className="welcomebtn">Get in Touch</button>
       </a>
 
       {/* STAGGERED IMAGE ANIMATION */}

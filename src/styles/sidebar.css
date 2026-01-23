@@ -1,3 +1,4 @@
+
 .side {
   display: flex;
   justify-content: space-between;
@@ -6,9 +7,12 @@
   height: 9vh;
   width: 100%;
   border-bottom: 2px solid rgb(228, 225, 225);
+  position:fixed;
+  top:0;
 }
 .logo img {
-  width: 60px;
+ width: 100px;
+ height:54px;
 }
 .ham img {
   width: 25px;

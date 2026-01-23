@@ -20,14 +20,14 @@ const Home = () => {
       setWidth(window.innerWidth);
       setIsMobile(window.innerWidth < 768);
     };
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
   return (
     <div>
-      {/* <Header /> */}
-      {/* <SideBar /> */}
-      {isMobile ? <SideBar /> : <Header />}
+      {/* {isMobile ? <SideBar /> : */}
+       <Header />
       <WelcometoProvision />
       <Whatarewe />
       <Whatwedo />

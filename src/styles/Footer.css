@@ -15,7 +15,7 @@
   width: 50%;
 }
 
-/* COMPANY INFO */
+
 .companyinfo h2 {
   margin: 0 0 6px 10px;
 }
@@ -31,7 +31,7 @@
   max-width: 120px;
 }
 
-/* DIVIDER */
+
 .footer hr {
   height: auto;
   width: 1px;
@@ -39,7 +39,7 @@
   border: none;
 }
 
-/* NEWSLETTER */
+
 .joinnewsletter h2 {
   font-size: 18px;
   font-weight: 500;
@@ -52,7 +52,7 @@
   margin-top: 10px;
 }
 
-/* IMPORTANT: remove global button selector */
+
 .subscribe input {
   outline: none;
   border-radius: 20px;
@@ -78,7 +78,6 @@
   font-size: 10px;
 }
 
-/* SOCIAL ICONS */
 .socials {
   display: flex;
   gap: 10px;
@@ -93,14 +92,12 @@
   height: 28px;
 }
 
-/* =====================
-   TABLET (≥ 768px)
-===================== */
 
 @media (min-width: 768px) {
   .footer {
     margin: 20px 40px;
-    border-radius: 15px;
+    border-radius: 15px; 
+   max-height: 60vh;
   }
 
   .companyinfo p {
@@ -116,23 +113,23 @@
   }
 }
 
-/* =====================
-   DESKTOP (≥ 1024px)
-===================== */
+
+
+
 
 @media (min-width: 1024px) {
   .companyinfo p {
     font-size: 16px;
   }
 
-  .footer {
-    min-height: 45vh;
-  }
+   .footer {
+   max-height: 60vh;
+ }
 }
 
-/* =====================
-   LARGE SCREENS
-===================== */
+
+
+
 
 @media (min-width: 1440px) {
   .companyinfo p {
@@ -140,6 +137,6 @@
   }
 
   .footer {
-    min-height: 50vh;
+    max-height: 50vh;
   }
 }

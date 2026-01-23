@@ -1,5 +1,5 @@
 import React from "react";
-import user002 from "../../assets/Mask group.png";
+import user002 from "../../assets/Mask group (1).png";
 import "../../styles/home/Whatarewe.css";
 
 const Whatarewe = () => {

@@ -3,11 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 .welcome-container {
+margin-top:12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 60px 0px 10px;
+  padding:60px 0px 10px;
+  /* max-width: 1272px; */
+  /* margin: auto; */
 }
 .welcome-container h3 {
   text-align: center;
@@ -20,14 +23,15 @@
 .welcome-container p {
   text-align: center;
   font-family: "DM Sans", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   padding: 0 20px;
+  max-width: 1000px;
   color: #000;
 }
-.welcome-container button {
+.welcomebtn {
   background-color: #934713;
   color: white;
-  border-radius: 6px;
+  border-radius: 3px;
   padding: 8px 20px;
   border: none;
   outline: none;
@@ -38,6 +42,7 @@
   width: 95%;
   padding: 0;
   margin: 0;
+  margin-top:30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
@@ -58,10 +63,28 @@
   display: none;
 }
 
+
+
+
 /* screen */
+
+@media screen and (min-width: 415px) {
+  .images {
+    gap: 10px;
+  }
+   .welcomebtn {
+   width: 150px;
+   padding: 10px 0;
+   border-radius:10px;
+   font-size: 18px;
+ } 
+}
+
+
+
 @media screen and (min-width: 768px) {
   .welcome-container {
-    padding: 80px 0px 10px;
+    padding: 60px 0px 10px;
     gap: 20px;
   }
   .welcome-container h3 {
@@ -69,14 +92,20 @@
     padding: 0 40px;
   }
   .welcome-container p {
-    font-size: 20px;
+    font-size: 23px;
+    font-weight:400;
     padding: 0 40px;
+    margin-bottom:20px;
   }
-  button {
-    width: 150px;
-    padding: 10px 0;
-    font-size: 18px;
-  }
+   .welcomebtn {
+      font-size: 25px;
+       width: 250px;
+ padding: 20px 40px;
+ border-radius:15px;
+ gap:15px;
+ margin-bottom:20px;
+    }
+
   .images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -99,8 +128,3 @@
   }
 }
 
-@media screen and (min-width: 415px) {
-  .images {
-    gap: 10px;
-  }
-}
