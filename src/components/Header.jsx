@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, Link } from "react-router-dom";
 import PrimaryLogo from "../assets/primary-logo-83b9e819 1.png";
 import hamVector from "../assets/Vector.png";
 import "../styles/header.css";
@@ -7,43 +8,56 @@ const Header = () => {
   return (
     <nav>
       <div className="navbar">
-
         {/* logo */}
         <div className="logo">
-          <img src={PrimaryLogo} alt="" />
+          <Link to="/">
+            <img src={PrimaryLogo} alt="" />
+          </Link>
         </div>
 
         {/* items */}
         <div className="items">
           <div>
-            <a href="">About</a>
+            <NavLink to="/about" className="nav-link">
+              About
+            </NavLink>
           </div>
           <div>
-            <a href="">Accommodation</a>
+            <NavLink to="/accomodation" className="nav-link">
+              Accommodation
+            </NavLink>
           </div>
           <div>
-            <a href="">Support</a>
+            <NavLink to="/support" className="nav-link">
+              Support
+            </NavLink>
           </div>
           <div>
-            <a href="">Events</a>
+            <NavLink to="/events" className="nav-link">
+              Events
+            </NavLink>
           </div>
           <div>
             {" "}
-            <a href="">Communities</a>
+            <NavLink to="/communities" className="nav-link">
+              Communities
+            </NavLink>
           </div>
           <div>
-            <a href="">Referrals</a>
+            <NavLink to="/referals" className="nav-link">
+              Referrals
+            </NavLink>
           </div>
         </div>
         {/* contact */}
         <div className="contact">
-          <a href="">Contact</a>
+          <Link to="">Contact</Link>
         </div>
 
         {/* hamburger */}
-          <div className="ham">
-    <img src={hamVector} alt="" />
-  </div>
+        <div className="ham">
+          <img src={hamVector} alt="" />
+        </div>
       </div>
     </nav>
   );

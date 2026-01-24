@@ -2,9 +2,9 @@
 
 .events {
   padding: 50px 26px 24px;
-  background: #f7f7f7;
+  /* color: #f7f7f7; */
   font-family: "DM Sans", sans-serif;
- 
+  padding-top: 50px;
 }
 
 .events h2 {
@@ -26,8 +26,8 @@
 
 .event-card {
   position: relative;
-  background: #c98b6a;
-  color: #000;
+  background: #1d1836;
+  color: #f7f7f7;
   padding: 30px;
   border-radius: 10px;
 }
