@@ -3,7 +3,7 @@ import supportworker from "../../assets/support-worker-1-f0f32ffb 1.png";
 
 const AboutHero = () => {
   return (
-    <div className="relative w-full h-[293px] !mt-[10vh] md:!h-[700px]  md:!mt-[12vh]">
+    <div className="relative w-full h-[293px] !mt-[10vh] md:!h-[85vh]  md:!mt-[12vh]">
       <img
         className="absolute inset-0 w-full h-full object-cover"
         src={supportworker}
