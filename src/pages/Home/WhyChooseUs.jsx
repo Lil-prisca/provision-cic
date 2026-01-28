@@ -28,10 +28,14 @@ const WhyChooseUs = () => {
   return (
     <section className="why">
       <h2>Why Choose Us</h2>
-      <h4>The “ProVision” Difference</h4>
+      <h4>
+        The <b>“ProVision”</b> Difference
+      </h4>
 
       <p className="why-text">
-        Our personalized care and commitment to individual goals set us apart.
+        Our personalized care, commitment to individual goals, and a clear path
+        to independent living set us apart. With us, you're not just a resident;
+        you're on a journey towards self-sufficiency and well-being.
       </p>
 
       <div className="accordion">

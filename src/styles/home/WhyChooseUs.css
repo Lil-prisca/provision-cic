@@ -3,11 +3,13 @@
   padding: 24px 16px;
   font-family: "DM Sans", sans-serif;
   max-width: 1272px;
-  margin:auto;
- padding-top:50px;
+  margin: auto;
+  padding-top: 50px;
 }
 
 .why h2 {
+  font-size: 16px;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -24,29 +26,37 @@
 }
 
 .accordion-item {
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+  /* box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.1); */
 }
 
 .accordion-header {
   width: 100%;
-  background: #6a3f2b;
-  color: white;
+  background: #f8f8f8;
+  color: black;
   padding: 14px;
-  border: none;
+  border: 1px solid #e9e7e7;
   border-radius: 0;
   text-align: left;
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
+
+  /* font-style: bold; */
 }
 
 .accordion-header.active {
-  background: #5a3324;
+  background: #934713;
+
+  color: white;
 }
 
 .accordion-body {
+  margin: 2px;
   padding: 14px;
   background: #fafafa;
+  box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.1);
 }
 
 /* screen */
@@ -54,5 +64,8 @@
   .why {
     max-width: 700px;
     margin: auto;
+  }
+  .why h2 {
+    font-size: 36px;
   }
 }

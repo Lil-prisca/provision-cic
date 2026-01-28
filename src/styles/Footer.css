@@ -15,7 +15,6 @@
   width: 50%;
 }
 
-
 .companyinfo h2 {
   margin: 0 0 6px 10px;
 }
@@ -31,14 +30,12 @@
   max-width: 120px;
 }
 
-
 .footer hr {
   height: auto;
   width: 1px;
   background-color: #e6c1a9;
   border: none;
 }
-
 
 .joinnewsletter h2 {
   font-size: 18px;
@@ -51,7 +48,6 @@
   gap: 8px;
   margin-top: 10px;
 }
-
 
 .subscribe input {
   outline: none;
@@ -92,12 +88,11 @@
   height: 28px;
 }
 
-
 @media (min-width: 768px) {
   .footer {
     margin: 20px 40px;
-    border-radius: 15px; 
-   max-height: 60vh;
+    border-radius: 15px;
+    max-height: 60vh;
   }
 
   .companyinfo p {
@@ -105,31 +100,24 @@
   }
 
   .subscribe input {
-    width: 160px;
+    width: 220px;
   }
 
   .subscribe button {
+    padding: 9px 17px;
     font-size: 13px;
   }
 }
-
-
-
-
 
 @media (min-width: 1024px) {
   .companyinfo p {
     font-size: 16px;
   }
 
-   .footer {
-   max-height: 60vh;
- }
+  .footer {
+    max-height: 60vh;
+  }
 }
-
-
-
-
 
 @media (min-width: 1440px) {
   .companyinfo p {

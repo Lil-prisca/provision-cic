@@ -1,7 +1,7 @@
 import React from "react";
-import supportworker from "../../assets/support-worker-1-f0f32ffb 1.png";
+import supportworker from "../../assets/support-worker-1-f0f32ffb 1 (1).png";
 
-const AboutHero = () => {
+const AccomodationHero = () => {
   return (
     <div className="relative w-full h-[293px] !mt-[10vh] md:!h-[85vh]  md:!mt-[12vh]">
       <img
@@ -10,18 +10,16 @@ const AboutHero = () => {
         alt=""
       />
       <div className="absolute inset-0 bg-[#934713]/60 "></div>
-
       <div className="relative  z-1 flex  items-center justify-center h-full px-4">
         <div className=" max-w-[400px]  md:max-w-[1000px] text-white text-center ">
           <h2 className=" font-Mogra  text-[23px] md:text-[60px]">
-            About Us: Our Journey
-          </h2>
+            {" "}
+            Accommodation
+          </h2>{" "}
           <p className=" font-[DM Sans] text-[10px] md:text-[25px]">
-            ProVision Support Services CIC is a community-interest organisation
-            providing inclusive, person-centred supported living solutions. We
-            support individuals with diverse needs to live safely,
-            independently, and with dignity in accommodation tailored to their
-            preferences and goals.
+            We take great pride in offering distinctive and well-maintained
+            accommodations that cater to a diverse range of needs and
+            preferences.
           </p>
           <div className="flex gap-2 justify-center !mt-2.5">
             <a href="">
@@ -31,11 +29,6 @@ const AboutHero = () => {
                 Get in Touch
               </button>
             </a>
-            <a href="">
-              <button className=" h-[33px] w-[104px] px-[17px] py-[8px]  border border-wite rounded-md text-[9.53px]   md:h-[85px] md:w-[241px] md:text-[25px]  md:px-[45px] d:py-[22.5px]">
-                Refer Someone
-              </button>
-            </a>
           </div>
         </div>
       </div>
@@ -43,4 +36,4 @@ const AboutHero = () => {
   );
 };
 
-export default AboutHero;
+export default AccomodationHero;

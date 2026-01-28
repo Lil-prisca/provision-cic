@@ -2,13 +2,15 @@
 
 .events {
   padding: 50px 26px 24px;
-  /* color: #f7f7f7; */
   font-family: "DM Sans", sans-serif;
   padding-top: 50px;
 }
 
 .events h2 {
+  font-size: 16px;
+  font-weight: 700;
   text-align: center;
+  font-family: "DM Sans", sans-serif;
   margin-bottom: 6px;
 }
 
@@ -51,6 +53,9 @@
     flex-direction: row;
     padding: 0 30px;
     margin: auto;
+  }
+  .events h2 {
+    font-size: 36px;
   }
 }
 @media (min-width: 1024px) {

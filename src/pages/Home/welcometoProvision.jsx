@@ -5,6 +5,8 @@ import img1 from "../../assets/coventry-f6acc2bd 1 (1).png";
 import img2 from "../../assets/home-hero-big-fa694ebf 1 (1).png";
 import img3 from "../../assets/download 2 (1).png";
 import img4 from "../../assets/download 1 (1).png";
+import img5 from "../../assets/Frame 6.png";
+import img6 from "../../assets/Frame 11 (4).png";
 
 import { motion } from "framer-motion";
 
@@ -74,11 +76,11 @@ const WelcometoProvision = () => {
         </motion.div>
 
         <motion.div className="img3 img5" variants={imageVariants}>
-          <img src={img3} alt="" />
+          <img src={img5} alt="" />
         </motion.div>
 
         <motion.div className="img4 img6" variants={imageVariants}>
-          <img src={img4} alt="" />
+          <img src={img6} alt="" />
         </motion.div>
       </motion.div>
     </div>
