@@ -2,7 +2,7 @@ import React from "react";
 
 const JoinProvision = () => {
   return (
-    <div className=" bg-[#FFEBDE] max-w-[400px] max-h-[113.73px] rounded-[9.75px] py-[20px]! m-auto!  md:max-w-[1231px] md:max-h-[350px]  ">
+    <div className=" bg-[#FFEBDE] max-w-[400px] max-h-[113.73px] rounded-[9.75px] py-[20px]! m-auto! !mt-[30px]  md:max-w-[1231px] md:max-h-[350px]  ">
       <h2 className=" text-[11.37px] md:text-[35px] text-center">
         Join ProVision CIC Today!
       </h2>

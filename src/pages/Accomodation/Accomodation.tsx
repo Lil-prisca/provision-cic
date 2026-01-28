@@ -3,17 +3,18 @@ import Header from "../../components/Header";
 import AccomodationHero from "./AccomodationHero";
 import OurAccomodation from "./OurAccomodation";
 import AccomodationProvides from "./AccomodationProvides";
-
 import JoinProvision from "./JoinProvision";
+import Footer from "../../components/Footer";
 
 const Accomodation = () => {
   return (
     <div>
+      <Header />
       <AccomodationHero />
       <OurAccomodation />
-      {/* <AccomodationProvides /> */}
+      <AccomodationProvides />
       <JoinProvision />
-      <Header />
+      <Footer />
     </div>
   );
 };
