@@ -1,7 +1,6 @@
-import React from "react";
 import supportworker from "../../assets/support-worker-1-f0f32ffb 1 (1).png";
 
-const AccomodationHero = () => {
+const SupportHero = () => {
   return (
     <div className="relative w-full h-[293px] !mt-[10vh] md:!h-[85vh]  md:!mt-[12vh]">
       <img
@@ -11,21 +10,20 @@ const AccomodationHero = () => {
       />
       <div className="absolute inset-0 bg-[#934713]/60 "></div>
       <div className="relative  z-1 flex  items-center justify-center h-full px-4">
-        <div className=" max-w-[350px]  md:max-w-[1000px] text-white text-center ">
-          <h2 className=" font-Mogra  text-[23px] md:text-[60px]">
+        <div className=" max-w-[370px]  md:max-w-[1000px] text-white text-center ">
+          <h2 className=" font-Mogra  text-[21px] !mb-[5px] md:text-[60px]">
             {" "}
-            Accommodation
+            Support: Empowering Your Journey
           </h2>{" "}
           <p className=" font-[DM Sans] text-[10px] md:text-[25px]">
-            We take great pride in offering distinctive and well-maintained
-            accommodations that cater to a diverse range of needs and
-            preferences.
+            We are dedicated to enhancing individuals' capacity to maintain a
+            tenancy and preparing them for self-sufficient living. Our
+            comprehensive support services are designed to guide you through
+            this transformative journey, empowering you every step of the way.
           </p>
           <div className="flex gap-2 justify-center !mt-2.5">
             <a href="">
-              {" "}
-              <button className="   h-[33px] w-[93px] px-[17px] py-[8px]  bg-white text-[#934713] rounded-md text-[9.53px] md:h-[85px] md:w-[241px] md:text-[25px]  md:px-[45px] d:py-[22.5px] ">
-                {" "}
+              <button className="   h-[33px] w-[93px] px-[17px] py[8px]   bg-white text-[#934713]  rounded-md text-[9.53px] md:h-[85px] md:w-[241px] md:text-[25px]  md:px-[45px] d:py-[22.5px]  ">
                 Get in Touch
               </button>
             </a>
@@ -36,4 +34,4 @@ const AccomodationHero = () => {
   );
 };
 
-export default AccomodationHero;
+export default SupportHero;

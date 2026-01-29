@@ -41,7 +41,7 @@ const coreValues = [
 const OurCoreValues = () => {
   return (
     <div className=" m-auto! md:max-w-[1279px]">
-      <div className=" max-w-[370px] m-auto! md:max-w-[1178px]">
+      <div className=" max-w-[300px] m-auto! md:max-w-[1178px]">
         <p className="text-[12.73px] text-center md:text-[20px] lg:text-[22px] leading-1.8 md:leading-[32px] lg:leading-[36px] mt-[60px]!">
           ProVision Support Services CIC is a community-interest organisation
           providing inclusive, person-centred supported living solutions. We
@@ -53,14 +53,14 @@ const OurCoreValues = () => {
       <h2 className="text-center text-[28px] mt-[50px]! mb-[20px]! lg:text-[40px]">
         Our Core Values
       </h2>
-      <div className=" flex flex-col m-auto!  max-w-[400px]  gap-3 md:flex-wrap md:flex-row md:max-w-[1279px]  ">
+      <div className=" flex flex-col m-auto!  max-w-[300px]  gap-3 md:flex-wrap md:flex-row md:max-w-[1279px]  ">
         {coreValues.map((value) => (
           // corevlaues
           <div
             key={value.id}
             className=" flex flex-col m-auto!   max-w-[400px]  md:max-w-[400px] "
           >
-            <div className=" border-l-[#934713] py-[10px]! pl-[16px]!  max-w-[440px] border-l-1 pl-[5px]!">
+            <div className=" border-l-[#c9a893] py-[10px]! pl-[16px]!  max-w-[440px] border-l-1 pl-[5px]!">
               <p>{value.id}</p>
             </div>
             {/* valuecontent */}

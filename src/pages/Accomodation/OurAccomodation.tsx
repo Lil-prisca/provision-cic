@@ -4,7 +4,7 @@ import maskedgroup2 from "../../assets/Group 21.png";
 
 const OurAccomodation = () => {
   return (
-    <div className="max-w-[370px] mt-[50px]! max-h-[396px] m-auto!  md:max-w-[1321.49px] md:max-h-[1306.68px] md:mt-[100px]!">
+    <div className="max-w-[330px] mt-[50px]! max-h-[396px] m-auto!  md:max-w-[1321.49px] md:max-h-[1306.68px] md:mt-[100px]!">
       <h2 className="text-center text-[22px] md:text-[40px]">
         OurAccomodation{" "}
       </h2>
@@ -12,8 +12,6 @@ const OurAccomodation = () => {
       <div className="md:max-w-[1321.49] md:max-h-[1204.68px]">
         {/* div1 */}
         <div className=" flex  max-w-[370px] mt-[10px]! m-auto!   max-h-[151px]  md:max-w-[692.74px]!  md:max-h-[665.29px]  lg:max-w-[992.74px]! lg:max-h-[665.29px]">
-          {/* image */}
-          {/* <div className="max-w-[139.99px] mr-[20px]! max-h-[151.02px] md:max-w-[387.74px] md:max-h-[365.29px] lg:max-w-[500px] lg:max-h-[639px]"> */}
           <div className=" flex  max-w-[370px] !mt-[10px]m-auto!   max-h-[261px]  !md:max-w-[692.74px] md:max-h-[665.29px] !lg:max-w-[1092.74px] ">
             <img className=" w-[100%] h-[100%]" src={maskedgroup} alt="" />
           </div>

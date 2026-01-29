@@ -12,7 +12,7 @@ const AboutHero = () => {
       <div className="absolute inset-0 bg-[#934713]/60 "></div>
 
       <div className="relative  z-1 flex  items-center justify-center h-full px-4">
-        <div className=" max-w-[400px]  md:max-w-[1000px] text-white text-center ">
+        <div className=" max-w-[300px]  md:max-w-[1000px] text-white text-center ">
           <h2 className=" font-Mogra  text-[23px] md:text-[60px]">
             About Us: Our Journey
           </h2>
