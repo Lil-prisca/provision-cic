@@ -116,6 +116,6 @@ nav {
     font-size: 20px;
   }
   .nav-link.active::after {
-    bottom: -26px;
+    bottom: -22.5px;
   }
 }

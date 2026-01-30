@@ -4,6 +4,7 @@ import SupportHero from "./SupportHero";
 import SupportList from "./SupportList";
 import Footer from "../../components/Footer";
 import JoinProvisionSuport from "./JoinProvisionSuport";
+import SupportCommunities from "./SupportCommunities";
 
 const Support = () => {
   return (
@@ -11,6 +12,7 @@ const Support = () => {
       <Header />
       <SupportHero />
       <SupportList />
+      <SupportCommunities />
       <JoinProvisionSuport />
       <Footer />
     </div>
