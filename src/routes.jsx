@@ -7,6 +7,9 @@ import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import TermsAndCondition from "./pages/TermsAndCondition/TermsAndCondition";
 import Faq from "./pages/Faq/Faq";
 import Event from "./pages/Events/Event";
+import Contact from "./pages/contact/Contact";
+import Referrals from "./pages/Referrals.tsx/Referrals";
+import EventDetails from "./pages/EventDetails/EventDetails";
 
 const AppRoutes = () => {
   return (
@@ -19,6 +22,9 @@ const AppRoutes = () => {
       <Route path="/privacypolicy" element={<PrivacyPolicy />} />
       <Route path="/termsandcondition" element={<TermsAndCondition />} />
       <Route path="/faq" element={<Faq />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/referrals" element={<Referrals />} />
+      <Route path="events/:id" element={<EventDetails />} />
     </Routes>
   );
 };
