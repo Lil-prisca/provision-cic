@@ -1,8 +1,8 @@
 import React from "react";
-import Locationicon from "../../assets/icon Container.png";
-import Timeicon from "../../assets/icon Container (1).png";
-import Callicon from "../../assets/icon Container (2).png";
-import Messageeicon from "../../assets/icon Container (3).png";
+import Locationicon from "../../assets/Icon Container.png";
+import Timeicon from "../../assets/Icon Container (1).png";
+import Callicon from "../../assets/Icon Container (2).png";
+import Messageeicon from "../../assets/Icon Container (3).png";
 const contactCards = [
   {
     icon: Messageeicon,
