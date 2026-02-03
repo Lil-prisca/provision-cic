@@ -4,6 +4,7 @@ import "../../styles/home/Whatwedo.css";
 import frame11 from "../../assets/Frame 11.png";
 import frame12 from "../../assets/Frame 11 (1).png";
 import frame13 from "../../assets/Frame 11 (3).png";
+import { Link } from "react-router-dom";
 
 const Whatwedo = () => {
   return (
@@ -21,8 +22,9 @@ const Whatwedo = () => {
             properties, attentive customer service, and local recommendations.
           </p>
           <div className="btncomp">
-            {" "}
-            <Button text="Learn More" />{" "}
+            <Link to="/accomodation">
+              <Button text="Learn More" />{" "}
+            </Link>
           </div>
         </div>
 
@@ -39,8 +41,10 @@ const Whatwedo = () => {
             needs and preferences of our clients.
           </p>
           <div className="btncomp">
-            {" "}
-            <Button text="Learn More" />{" "}
+            <Link to="/support">
+              {" "}
+              <Button text="Learn More" />{" "}
+            </Link>
           </div>
         </div>
 
@@ -58,8 +62,10 @@ const Whatwedo = () => {
           </p>
 
           <div className="btncomp">
-            {" "}
-            <Button text="Learn More" />{" "}
+            <Link to="/support">
+              {" "}
+              <Button text="Learn More" />{" "}
+            </Link>
           </div>
         </div>
       </div>

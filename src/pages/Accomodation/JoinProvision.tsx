@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const JoinProvision = () => {
   return (
     <div className=" bg-[#FFEBDE] max-w-[400px] max-h-[113.73px] rounded-[9.75px] py-[20px]! m-auto! !mt-[30px]  md:max-w-[1231px] md:max-h-[350px]  ">
@@ -9,15 +10,15 @@ const JoinProvision = () => {
         a place; it's about community, support, and growth. Welcome home!
       </p>
       <div className="flex mt-[10px]! m-auto! max-w-[fit-content] gap-[10px] ">
-        <a href="">
+        <Link to="/contact">
           <button
             className="  bg-[#FFFFFF]  rounded-[7px] border-[#D0D0D0] border-[0.32px] px-[13px]! py-[6.5px]! text-[#000000] text-[5.85px]  
           md:rounded-[50px] md:px-[40px]! md:py-[20px]! md:text-[18px]"
           >
             Get in touch
           </button>
-        </a>
-        <a href="">
+        </Link>
+        <Link to="/referrals">
           {" "}
           <button
             className="  bg-[#FD8282]  rounded-[7px] border-[#FE6D6D] border-[0.32px] px-[13px]! py-[6.5px]! text-[#FFFFFF] text-[5.85px]
@@ -25,7 +26,7 @@ const JoinProvision = () => {
           >
             Make a referral
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );

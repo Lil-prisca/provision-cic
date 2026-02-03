@@ -1,3 +1,5 @@
+import icon1 from "../../assets/icon.png";
+import icon2 from "../../assets/icon (1).png";
 const ContactForm = () => {
   return (
     <div className="max-w-[350px] !m-auto !mt-[80px] !px-4 md:max-w-[1000px] ">
@@ -10,16 +12,25 @@ const ContactForm = () => {
         {/* Full Name */}
         <div>
           <label className="text-[14px] !ml-[10px]">Full Name</label>
-          <input
-            type="text"
-            placeholder="Full Name"
-            className="w-full !mt-[5px]  border shadow-[0_0_6px_rgba(0,0,0,0.5)] rounded-[6px] border-gray-300  !px-[10px] outline-none !py-[10px]"
-          />
+
+          <div className="relative ">
+            <input
+              type="text"
+              placeholder="Full Name"
+              className="w-full !mt-[5px]  border shadow-[0_0_6px_rgba(0,0,0,0.5)] rounded-[6px] border-gray-300  !px-[10px] outline-none !py-[10px]"
+            />
+            <img
+              src={icon1}
+              alt=""
+              className="absolute right-[12px] top-3/5 -translate-y-1/2 w-[20px] h-[20px]"
+            />
+          </div>
         </div>
 
         {/* Phone */}
         <div>
           <label className="text-[14px] !ml-[10px]">Phone Number</label>
+
           <input
             type="text"
             placeholder="Phone Number"
@@ -30,11 +41,18 @@ const ContactForm = () => {
         {/* Email */}
         <div>
           <label className="text-[14px] !ml-[10px]">Email</label>
-          <input
-            type="email"
-            placeholder="Email"
-            className="w-full !mt-[5px] border shadow-[0_0_6px_rgba(0,0,0,0.5)] rounded-[6px] border-gray-300 placeholder:!px-[10px] outline-none !py-[10px]"
-          />
+          <div className="relative ">
+            <input
+              type="email"
+              placeholder="Email"
+              className="w-full !mt-[5px] border shadow-[0_0_6px_rgba(0,0,0,0.5)] rounded-[6px] border-gray-300 placeholder:!px-[10px] outline-none !py-[10px]"
+            />
+            <img
+              src={icon2}
+              alt=""
+              className="absolute right-[12px] top-3/5 -translate-y-1/2 w-[20px] h-[20px]"
+            />
+          </div>
         </div>
 
         {/* Subject */}

@@ -1,7 +1,11 @@
 import React from "react";
+import Locationicon from "../../assets/icon Container.png";
+import Timeicon from "../../assets/icon Container (1).png";
+import Callicon from "../../assets/icon Container (2).png";
+import Messageeicon from "../../assets/icon Container (3).png";
 const contactCards = [
   {
-    icon: "📧",
+    icon: Messageeicon,
     text: (
       <>
         info@provisionsupportservices.co.uk
@@ -11,7 +15,7 @@ const contactCards = [
     ),
   },
   {
-    icon: "📞",
+    icon: Callicon,
     text: (
       <>
         +44 7581 487408
@@ -21,7 +25,7 @@ const contactCards = [
     ),
   },
   {
-    icon: "⏰",
+    icon: Timeicon,
     text: (
       <>
         Mon – Fri – 8:00am – 5:30pm
@@ -31,7 +35,7 @@ const contactCards = [
     ),
   },
   {
-    icon: "📍",
+    icon: Locationicon,
     text: (
       <>
         32 Heathville Road, B28 9QF
@@ -45,7 +49,7 @@ const contactCards = [
 const ContactInfo = () => {
   return (
     <div className="max-w-full !mt-[40px] !m-auto !px-4">
-      <div className="grid grid-cols-4 md:grid-cols-4 gap-[10px]">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-[10px]">
         {contactCards.map((card, index) => (
           <div
             key={index}
@@ -64,7 +68,11 @@ const ContactInfo = () => {
           >
             {/* Icon */}
             <div className="w-[44px] h-[44px] rounded-full  flex items-center justify-center text-[20px]">
-              {card.icon}
+              <img
+                src={card.icon}
+                alt="Contact Icon"
+                className="w-full h-full object-contain"
+              />
             </div>
 
             {/* Text */}

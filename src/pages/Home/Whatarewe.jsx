@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import user002 from "../../assets/Mask group (1).png";
 import "../../styles/home/Whatarewe.css";
 
@@ -24,9 +25,9 @@ const Whatarewe = () => {
             matter who you are, what your needs are, or how long you'll be
             staying.
           </p>
-          <a href="">
+          <Link to="/support">
             <button>Discover More</button>
-          </a>
+          </Link>
         </div>
         <div className="serviceImg">
           <img src={user002} alt="" />

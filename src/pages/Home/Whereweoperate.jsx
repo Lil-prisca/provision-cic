@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/home/Whereweoperate.css";
 import areaImg1 from "../../assets/coventry-f6acc2bd 2.png";
 import areaImg2 from "../../assets/image 1.png";
@@ -23,10 +24,10 @@ const Whereweoperate = () => {
             <li>High-quality practice</li>
           </ul>
           <div className="operationbuttons">
-            <a href="">
+            <Link to="/support">
               <button className="getSupportBtn">Get Support</button>
-            </a>
-            <a href="">
+            </Link>
+            <a href="/referrals">
               <button className="referbtn">Refer Someones</button>
             </a>
           </div>
@@ -65,13 +66,13 @@ const Whereweoperate = () => {
           </ul>
 
           <div className="operationbuttons">
-            <a href="">
+            <Link to="/support">
               <button className="getSupportBtn">Get Support</button>
-            </a>
+            </Link>
 
-            <a href="">
+            <Link to="/referrals">
               <button className="referbtn">Refer Someones</button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

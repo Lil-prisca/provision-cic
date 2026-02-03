@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import supportworker from "../../assets/support-worker-1-f0f32ffb 1 (1).png";
 
 const AccomodationHero = () => {
@@ -22,13 +23,13 @@ const AccomodationHero = () => {
             preferences.
           </p>
           <div className="flex gap-2 justify-center !mt-2.5">
-            <a href="">
+            <Link to="/contact">
               {" "}
               <button className="   h-[33px] w-[93px] px-[17px] py-[8px]  bg-white text-[#934713] rounded-md text-[9.53px] md:h-[85px] md:w-[241px] md:text-[25px]  md:px-[45px] d:py-[22.5px] ">
                 {" "}
                 Get in Touch
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const ContactHero = () => {
         alt=""
       />
       <div className="absolute inset-0 bg-[#000000]/60 "></div>
-      <div className="relative  z-1 flex  items-center justify-center h-full px-4">
+      <div className="relative  z-1 flex  items-center justify-center h-full !px-4">
         <div className=" max-w-[370px]  md:max-w-[1000px] text-white text-center ">
           <h2 className=" font-Mogra  text-[21px] !mb-[5px] md:text-[60px]">
             {" "}

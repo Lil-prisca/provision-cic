@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/home/welcome.css";
 
 import img1 from "../../assets/coventry-f6acc2bd 1 (1).png";
@@ -47,9 +48,9 @@ const WelcometoProvision = () => {
         people in their journey toward greater independence.
       </p>
 
-      <a href="">
+      <Link to="/contact">
         <button className="welcomebtn">Get in Touch</button>
-      </a>
+      </Link>
 
       {/* STAGGERED IMAGE ANIMATION */}
       <motion.div
