@@ -1,5 +1,5 @@
-import icon1 from "../../assets/icon.png";
-import icon2 from "../../assets/icon (1).png";
+import icon1 from "../../assets/Icon.png";
+import icon2 from "../../assets/Icon (1).png";
 const ContactForm = () => {
   return (
     <div className="max-w-[350px] !m-auto !mt-[80px] !px-4 md:max-w-[1000px] ">
