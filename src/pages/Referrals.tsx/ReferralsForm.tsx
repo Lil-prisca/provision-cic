@@ -1,6 +1,7 @@
 import icon2 from "../../assets/solar_calendar-linear.png";
-import icon3 from "../../assets/icon (1).png";
+import icon3 from "../../assets/Icon (1).png";
 import icon1 from "../../assets/icon.png";
+
 import "../../styles/ref.css";
 const ReferralsForm = () => {
   return (
